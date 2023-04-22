@@ -29,5 +29,4 @@ switch($i){
     case 2:
         echo "i　は2(int)です \n";
         break;
-        
 }
