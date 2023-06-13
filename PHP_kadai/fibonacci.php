@@ -14,11 +14,11 @@ function generateFibonacciSequence($limit)
 $limit = 10000;
 $fibonacciSequence = generateFibonacciSequence($limit);
 
-// echo "フィボナッチ数列（1万を超えるところまで）: ";
 foreach ($fibonacciSequence as $value) {
-    if ($value > $limit) {
+    echo $value . "\n";
+    if ($value >= 10946) {
         break;
     }
-    echo $value . " ";
 }
 ?>
+
