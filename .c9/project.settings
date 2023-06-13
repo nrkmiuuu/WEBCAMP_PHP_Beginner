@@ -44,5 +44,13 @@
     },
     "welcome": {
         "@first": true
+    },
+    "workspace": {
+        "@folders": [
+            {
+                "name": "todolist",
+                "path": "~/todolist"
+            }
+        ]
     }
 }
